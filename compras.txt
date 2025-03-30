@@ -1,0 +1,12 @@
+Produto: Camisa
+Quantidade: 10
+Preço unitário: R$ 5,00
+Total: R$ 50,00
+Produto: Tv
+Quantidade: 10
+Preço unitário: R$ 2000,00
+Total: R$ 20000,00
+Produto: Notebook
+Quantidade: 20
+Preço unitário: R$ 4000,00
+Total: R$ 80000,00
