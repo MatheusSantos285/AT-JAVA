@@ -1,15 +1,13 @@
 package org.example.Exercicio11;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Loteria {
 
-    public static List<Integer> fazerAposta() {
+    public static Set<Integer> fazerAposta() {
         Scanner scanner = new Scanner(System.in);
 
-        List<Integer> numerosApostados = new ArrayList<>();
+        Set<Integer> numerosApostados = new HashSet<>();
 
         for (int i = 0; i < 6; i++) {
             System.out.println("Digite um número entre 1 e 60:");
@@ -20,9 +18,9 @@ public class Loteria {
         return numerosApostados;
     }
 
-    public static List<Integer> sortearNumeros() {
+    public static Set<Integer> sortearNumeros() {
 
-        List<Integer> numerosSorteados = new ArrayList<>();
+        Set<Integer> numerosSorteados = new HashSet<>();
 
         for (int i = 0; i < 6; i++) {
             int numeroSorteado = (int) (Math.random() * 60) + 1;
@@ -32,7 +30,7 @@ public class Loteria {
         return numerosSorteados;
     }
 
-    public static void verificarAposta(List<Integer> numerosApostados, List<Integer> numerosSorteados) {
+    public static void verificarAposta(Set<Integer> numerosApostados, Set<Integer> numerosSorteados) {
         int acertos = 0;
 
         for (int numeroApostado : numerosApostados) {

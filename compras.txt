@@ -1,12 +1,12 @@
-Produto: Camisa
-Quantidade: 10
-Preço unitário: R$ 5,00
-Total: R$ 50,00
-Produto: Tv
+Produto: Celular
 Quantidade: 10
 Preço unitário: R$ 2000,00
 Total: R$ 20000,00
-Produto: Notebook
+Produto: Monitor
 Quantidade: 20
-Preço unitário: R$ 4000,00
-Total: R$ 80000,00
+Preço unitário: R$ 1000,00
+Total: R$ 20000,00
+Produto: Fone de Ouvido 
+Quantidade: 20
+Preço unitário: R$ 200,00
+Total: R$ 4000,00
